@@ -3,6 +3,25 @@ public class SerKadTat
     private String schule;
     private int alter;
     private boolean student;
-    private boolean berufstatig;
     private String name;
+    
+    public void setSchule(String neuSchule)
+    {
+        schule = neuSchule;
+    }
+    
+    public void setAlter(int neuAlter)
+    {
+        alter = neuAlter;
+    }
+    
+    public void setStudent(boolean neuStudent)
+    {
+        student = neuStudent;
+    }
+    
+    public void setName(String neuName)
+    {
+        name = neuName;
+    }
 }
