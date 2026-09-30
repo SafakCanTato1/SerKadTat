@@ -4,10 +4,10 @@ public class SerKadTat
     private int alter;
     private int schulklasse;
     private boolean student;
-    private boolean berufstatig;
     private String name;
-    
-    public SerKadTat(String schule, int alter, int schulklasse, 
+        
+
+    public SerKadTat(String schule, int alter, int schulklasse,
 boolean student, boolean berufstatig, String name)
     {
     setSchule(schule);
@@ -15,12 +15,41 @@ boolean student, boolean berufstatig, String name)
     setSchulklasse(schulklasse);
     setStudent(student);
     setBerufstatig(berufstatig);
-    setName(name);
+    setName(name);    
     }
     
+    public void setSchule(String neuSchule)
+    {
+        schule = neuSchule;
+    }
     
-
+    public void setAlter(int neuAlter)
+    {
+        alter = neuAlter;
+    }
+    
+    public void setStudent(boolean neuStudent)
+    {
+        student = neuStudent;
+    }
+    
+    public void setName(String neuName)
+    {
+        name = neuName;
+    }
+    
+    public void setSchulklasse(int neuSchulklasse)
+    {
+        schulklasse = neuSchulklasse;
+    }
+    public void setBerufstatig(int neuBerufstatig)
+    {
+        berufstatig = neuBerufstatig;
+    }
 }
+
+
+
 
 
 
