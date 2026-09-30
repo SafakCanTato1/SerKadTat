@@ -17,6 +17,8 @@ boolean student, boolean berufstatig, String name)
     setBerufstatig(berufstatig);
     setName(name);
     }
+    
+    
 
 }
 
