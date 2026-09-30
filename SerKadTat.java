@@ -2,8 +2,15 @@ public class SerKadTat
 {
     private String schule;
     private int alter;
+    private int schulklasse;
     private boolean student;
     private String name;
+    
+    public SerKadTat(String schule, int alter, int schulklasse, 
+    boolean student, boolean berufstatig, String name)
+    {
+        
+    }
     
     public void setSchule(String neuSchule)
     {
@@ -25,3 +32,9 @@ public class SerKadTat
         name = neuName;
     }
 }
+
+
+
+
+
+
