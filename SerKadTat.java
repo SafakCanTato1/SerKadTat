@@ -8,7 +8,14 @@ public class SerKadTat
     private String name;
     
     public SerKadTat(String schule, int alter, int schulklasse, 
-boolean student, boolean berufstatig, String name){
+boolean student, boolean berufstatig, String name)
+    {
+    setSchule(schule);
+    setAlter(alter);
+    setSchulklasse(schulklasse);
+    setStudent(student);
+    setBerufstatig(berufstatig);
+    setName(name);
     }
 
 }
