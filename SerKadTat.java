@@ -9,7 +9,17 @@ public class SerKadTat
     public SerKadTat(String schule, int alter, int schulklasse, 
     boolean student, boolean berufstatig, String name)
     {
+    }
         
+
+    public SerKadTat(String schule, int alter, int schulklasse, boolean student, String name)
+    {
+    setSchule(schule);
+    setAlter(alter);
+    setSchulklasse(schulklasse);
+    setStudent(student);
+    setName(name);
+    
     }
     
     public void setSchule(String neuSchule)
@@ -30,6 +40,11 @@ public class SerKadTat
     public void setName(String neuName)
     {
         name = neuName;
+    }
+    
+    public void setSchulklasse(int neuSchulklasse)
+    {
+        schulklasse = neuSchulklasse;
     }
 }
 
